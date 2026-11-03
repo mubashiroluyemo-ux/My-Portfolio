@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+}
+.one{
+    display: flex;
+    background-color: #0a192f;
+    padding: 20px;
+    position: fixed;
+    width: 1300px;
+
+
+}
+.two{
+   color: #ffffff;
+   font-weight: 600; 
+   margin-left: 50px;
+}
+.three{
+    display: flex;
+    margin-left: 300px;
+    gap: 60px;
+}
+.three a{
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.three.show{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 10px;
+}
+.four{
+    margin-left: 10px;
+    cursor: pointer;
+    width: 40px;
+    display: none;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.five{
+    cursor: pointer;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid #00d9ff;
+    background-color: #0a192f;
+    color:  #00d9ff;
+}
+.six{
+    border: 1px solid #00d9ff ;
+    padding: 20px;
+    background-color: #0a192f;
+    display: flex;
+    
+}
+.seven{
+    margin-top: 60px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.eight{
+    font-size: 20px;
+    color: #00bfff;
+    font-weight: 600;
+}
+.nine{
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    animation: fadeIn 2s ease-in;
+    opacity: 0;
+
+}
+.nine.show{
+    animation: fadeIn 2s ease forwards;
+}
+.ten{
+    color: #00bfff;
+}
+.eleven{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.twelve{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c7dfff;
+}
+.thirteen{
+     margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c7dfff;
+    
+}
+.fourteen{
+    margin-top: 15px;
+    display: flex;
+}
+.fourteen a{
+    text-decoration: none;
+    color: #000000;
+}
+.fifteen{
+    border: 1px solid #00d9ff;
+    padding: 5px;
+    background-color: #00d9ff;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+
+}
+.sixteen{
+    margin-left: 50px;
+     border: 1px solid #164e63;
+    padding: 5px;
+    background-color: #0a192f;
+    border-radius: 10px;
+    width: 170px;
+    text-align: center;
+
+}
+.sixteen a{
+    color: #ffffff;
+}
+.seventeen{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.seventeen a{
+    color: #00d9ff;
+
+
+}
+.eighteen{
+    margin-left: 200px;
+    margin-top: 11px;
+    border-radius: 5px;
+
+}
+.nineteen{
+    border-radius: 5px;
+    animation: slideIn 2s ease;
+
+}
+.twenty{
+ border: 1px solid #00d9ff ;
+    padding: 20px;
+    background-color: #11243d;
+    display: flex;
+    color: #ffffff;
+}
+.twoone{
+ margin-top: 20px;
+ margin-left: 10px;
+justify-content: space-between;
+}
+.twotwo{
+font-weight: 600;
+
+}
+.twothree{
+color: #00bfff;
+font-size: 20px;
+animation: slideUp 1.5s ease;
+
+}
+.twofour{
+font-size: 32px;
+margin-top: 7px;
+animation: slideUp 2s ease;
+
+}
+.twofive{
+color: #c7dfff;
+margin-top: 10px;
+animation: slideUp 2s ease;
+
+}
+.twosix{
+color: #c7dfff;
+margin-top: 5px;
+animation: slideUp 2s ease;
+
+
+}
+.twoseven{
+color: #c7dfff;
+animation: slideUp 2s ease;
+
+
+
+}
+.twoeight{
+color: #c7dfff;
+margin-top: 8px;
+animation: slideUp 2s ease;
+
+
+
+}
+.twonine{
+color: #c7dfff;
+margin-top: 5px;
+animation: slideUp 2s ease;
+
+
+}
+.twoten{
+margin-left: 10px;
+}
+.twothirty{
+    margin-left: -30px;
+    margin-top: -30px;
+    animation: slideIn 2s ease;
+
+}
+.twothreeone{
+border: 1px solid #00d9ff ;
+    padding: 20px;
+    background-color: #0a192f;
+    display: flex;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+.twothreetwo{
+margin-top: 20px;
+ margin-left: 10px;
+justify-content: space-between;
+
+}
+.twothreethree{
+color: #00bfff;
+font-size: 20px;
+}
+.twothreefour{
+margin-left: 10px;
+
+}.twothreefive{
+font-size: 32px;
+margin-top: 7px;
+}
+.twothreesix{
+    display: flex;
+    margin-top: 20px;
+    gap: 110px;
+}
+.twothreeseven{
+    border: 1px solid #00d9ff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    animation: slideUp 1.5s ease;
+    
+}
+.twothreeeight{
+    margin-top: 5px;
+}
+.twothreenine{
+color: #c7dfff;
+font-size: 15px;
+margin-top: 5px;  
+
+}
+.twothreeten{
+   border: 1px solid #00d9ff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;  
+    margin-left: 20px;
+    width: 200px;
+    animation: slideUp 1.5s ease;
+
+
+}
+.twofourty{
+    margin-top: 5px;
+
+}
+.twofourone{
+color: #c7dfff;
+font-size: 15px;
+margin-top: 5px;  
+
+}
+.twofourtwo{
+     border: 1px solid #00d9ff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;  
+    margin-left: 20px;
+    width: 200px;
+ animation: slideUp 1.5s ease;
+
+}
+.twofourthree{
+    margin-top: 5px;
+    
+}
+.twofourfour{
+  color: #c7dfff;
+font-size: 15px;
+margin-top: 5px;  
+}
+.twofourfive{
+     border: 1px solid #00d9ff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;  
+    margin-left: 20px;
+    width: 200px;
+ animation: slideUp 1.5s ease;
+
+}
+.twofoursix{
+    margin-top: 5px;
+
+}
+.twofourseven{
+      color: #c7dfff;
+font-size: 15px;
+margin-top: 5px;  
+}
+.twofoureight{
+    border: 1px solid #00d9ff ;
+    padding: 20px;
+    background-color: #11243d;
+    display: flex;
+    color: #ffffff;
+    font-weight: 600;
+}
+.twofournine{
+    margin-top: 20px;
+ margin-left: 10px;
+justify-content: space-between;
+}
+.twofourten{
+   
+}
+.twofifty{
+ color: #00bfff;
+font-size: 20px;
+
+}
+.twofiveone{
+margin-left: 10px;
+
+}
+.twofivetwo{
+ font-size: 32px;
+margin-top: 7px;
+    
+}
+.twofivethree{
+margin-top: 30px;
+display: flex;
+animation: slideIn 2s ease;
+
+
+
+}
+.twofivefour{
+display: flex;
+border: 1px solid #00d9ff;
+padding: 15px;
+border-radius: 5px;
+}
+.twofivefive{
+    margin-left: 20px;
+}
+.twofivesix{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.twofiveseven{
+    font-size: 14px;
+    color: #c7dfff;
+    margin-top: 10px;
+
+    
+}
+.twofiveeight{
+     font-size: 14px;
+    color: #c7dfff;
+    margin-top: 5px;
+}
+.twofivenine{
+     font-size: 14px;
+    color: #c7dfff;
+    margin-top: 5px;
+
+}
+.twofiveten{
+    margin-top: 7px;
+    border: 1px solid #00bfff;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+.twofiveten a{
+    text-decoration: none;
+    color: #00bfff;
+}
+.twosixty{
+display: flex;
+border: 1px solid #00d9ff;
+padding: 15px;
+border-radius: 5px;
+margin-left: 100px;
+    animation: slideIn 2s ease;
+
+}
+.twosixone{
+    margin-left: 20px;
+
+
+
+}
+.twosixtwo{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.twosixthree{
+     font-size: 14px;
+    color: #c7dfff;
+    margin-top: 10px;
+}
+.twosixfour{
+      font-size: 14px;
+    color: #c7dfff;
+    margin-top: 5px;
+}
+.twosixfive{
+      font-size: 14px;
+    color: #c7dfff;
+    margin-top: 5px;
+}
+.twosixsix{
+    border: 1px solid #00d9ff ;
+    padding: 20px;
+    background-color: #11243d;
+    display: flex;
+    color: #ffffff;
+    font-weight: 600; 
+}
+.twosixseven{
+ margin-top: 20px;
+ margin-left: 10px;
+/* justify-content: space-between; */
+gap: 100px;
+display: flex;
+}
+.twosixeight{
+
+}
+.twosixnine{
+ color: #00bfff;
+font-size: 20px;
+}
+.twosevenone{
+  margin-left: 10px; 
+}
+.twosixten{
+font-size: 20px;
+margin-top: 7px;
+}
+.twoseventy{
+color: #c7dfff;
+margin-top: 5px;
+font-size: 16px;
+}
+.twoseventwo{
+color: #c7dfff;
+margin-top: 5px;
+}
+.twoseventhree{
+display: flex;
+
+}
+.new{
+border-left:  1px solid #00bfff;
+margin-left: 20px;
+
+}
+.twosevenfour{
+margin-left: 20px;
+display: flex;
+
+
+    
+}
+.twosevenfive{
+  margin-left: 10px;  
+}
+.twosevensix{
+    font-size: 14px;
+    color: #c7dfff;
+    margin-top: 3px;
+
+}
+.twosevenseven{
+    margin-left: 20px;
+   display: flex;
+   margin-top: 20px;
+}
+.twoseveneight{
+  margin-left: 10px;  
+    
+}
+
+.twoseventen{
+     font-size: 14px;
+    color: #c7dfff;
+    margin-top: 3px;
+}
+.twosevennine{
+     margin-left: 20px;
+   display: flex;
+   margin-top: 20px;
+}
+.twoeighty{
+  margin-left: 10px;  
+
+}
+.twoeighttwo{
+ font-size: 14px;
+    color: #c7dfff;
+    margin-top: 3px;
+}
+.twoeightthree{
+    margin-left: 100px;
+}
+input{
+    background-color: #ffffff;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #00d9ff;
+    border-radius: 5px;
+}
+.twoeightfour{
+    margin-left: 20px;
+}
+.twoeightfive{
+    margin-top: 20px;
+    width: 425px;
+    height: 10vh;
+}
+.twoeightsix{
+    width: 425px;
+    background-color: #00d9ff;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid #00d9ff;
+}
+.contact{
+
+}
+.me{
+    color: #00d9ff;
+    font-size: 20px;
+    margin-top: 5px;
+    animation: slideUp 1.5s ease;
+}
+.span{
+    margin-left: 20px;
+}
+.twoeightseven{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.twoeighteight{
+    margin-top: 10px;
+}
+.twoeightnine{
+    margin-top: 10px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.twoeightten{
+    
+}
+.twoninety{
+
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes slideIn{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideUp{
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width:768px){
+    
+    .four{
+        display: block;
+    }
+    .three{
+        display: none;
+    }
+    .three.show{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        left: 0;
+    }
+    .six{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourteen{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    .seven,
+    .eighteen {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-left: -40px;
+    }
+    .eighteen img{
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+    }
+    .twenty{
+        flex-direction: column;
+        align-items: center;
+    }
+    .twothreesix{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .twoseventhree{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .contact{
+        margin-left: 200px;
+        
+    }
+    .new{
+        margin-left: 200px;
+    }
+    .twosixty{
+        margin-left: -3px;
+    }
+}
