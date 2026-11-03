@@ -685,13 +685,16 @@ html{
         gap: 25px;
     }
     .contact{
-        margin-left: 200px;
+        margin-left: 50px;
         
     }
     .new{
-        margin-left: 200px;
+        margin-left: 50px;
     }
     .twosixty{
         margin-left: -3px;
+    }
+    .twoeightthree{
+        margin-left: -5px;
     }
 }
